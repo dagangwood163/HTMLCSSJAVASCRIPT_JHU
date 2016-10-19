@@ -140,3 +140,16 @@ hr {
   font-weight: bold;
   font-size: 1.2em;
 }
+
+@media (max-width: 767px) {
+    .navbar-fixed-top {
+        position: relative;
+        top: auto;
+    }
+    .navbar-collapse {
+        max-height: none;
+    }
+    body {
+        margin: 0;
+    }
+}
